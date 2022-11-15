@@ -2,7 +2,7 @@ import pandas as pd
 
 def analyze(df, f):
     f.write(f'NaN totales: {df.isna().sum().sum()}\n')
-    f.write(f'NaN por columna: \n{df.isna().sum()}\n\n')
+    f.write(f'NaN por columna: \n{df.isna().sum()}\n\n') 
     f.write(f'Nulls totales: {df.isnull().sum().sum()}\n')
     f.write(f'Nulls por columna:\n{df.isnull().sum()}\n\n')
     f.write(f"Cada columna representa el siguiente tipo de dato:\n{df.dtypes}\n")
