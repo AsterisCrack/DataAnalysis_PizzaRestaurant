@@ -1,0 +1,119 @@
+Analisis de la tabla data_files/data_dictionary.csv
+NaN totales: 0
+NaN por columna: 
+Table          0
+Field          0
+Description    0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+Table          0
+Field          0
+Description    0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+Table          object
+Field          object
+Description    object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/order_details.csv
+NaN totales: 0
+NaN por columna: 
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+order_details_id     int64
+order_id             int64
+pizza_id            object
+quantity             int64
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/orders.csv
+NaN totales: 0
+NaN por columna: 
+order_id    0
+date        0
+time        0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+order_id    0
+date        0
+time        0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+order_id     int64
+date        object
+time        object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/pizza_types.csv
+NaN totales: 0
+NaN por columna: 
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+pizza_type_id    object
+name             object
+category         object
+ingredients      object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/pizzas.csv
+NaN totales: 0
+NaN por columna: 
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+pizza_id          object
+pizza_type_id     object
+size              object
+price            float64
+dtype: object
+
+---------------------------------------------------------------
