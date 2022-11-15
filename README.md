@@ -11,4 +11,5 @@ To really recommend on that aspect, a more advanced algorythm that takes into ac
 To execute the program, run "pizzas.py"
 Also, it is possible to create a docker image to safely deploy the program
 To do that, just run the following command in the console, inside the directory where you clone this repository:
+
 docker build . -t DataAnalysis_PizzaRestaurant
