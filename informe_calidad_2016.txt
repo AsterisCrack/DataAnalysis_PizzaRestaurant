@@ -1,0 +1,157 @@
+Analisis de la tabla data_files/data_dictionary.csv
+El archivo tiene 15 filas y 3 columnas
+NaN totales: 0
+NaN por columna: 
+Table          0
+Field          0
+Description    0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+Table          0
+Field          0
+Description    0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+Table          object
+Field          object
+Description    object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/order_details.csv
+El archivo tiene 48620 filas y 1 columnas
+NaN totales: 0
+NaN por columna: 
+order_details_id,order_id,pizza_id,quantity    0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+order_details_id,order_id,pizza_id,quantity    0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+order_details_id,order_id,pizza_id,quantity    object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/orders.csv
+El archivo tiene 21350 filas y 1 columnas
+NaN totales: 0
+NaN por columna: 
+order_id,date,time    0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+order_id,date,time    0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+order_id,date,time    object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/pizza_types.csv
+El archivo tiene 32 filas y 4 columnas
+NaN totales: 0
+NaN por columna: 
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+pizza_type_id    object
+name             object
+category         object
+ingredients      object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files/pizzas.csv
+El archivo tiene 96 filas y 4 columnas
+NaN totales: 0
+NaN por columna: 
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+pizza_id          object
+pizza_type_id     object
+size              object
+price            float64
+dtype: object
+
+---------------------------------------------------------------
+Archivos orders y order_details limpiados
+---------------------------------------------------------------
+Analisis de la tabla data_files_2016/order_details_clean.csv
+El archivo tiene 38783 filas y 4 columnas
+NaN totales: 0
+NaN por columna: 
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+order_details_id     int64
+order_id             int64
+pizza_id            object
+quantity            object
+dtype: object
+
+---------------------------------------------------------------
+Analisis de la tabla data_files_2016/orders_clean.csv
+El archivo tiene 15721 filas y 2 columnas
+NaN totales: 0
+NaN por columna: 
+order_id    0
+date        0
+dtype: int64
+
+Nulls totales: 0
+Nulls por columna:
+order_id    0
+date        0
+dtype: int64
+
+Cada columna representa el siguiente tipo de dato:
+order_id     int64
+date        object
+dtype: object
+
+---------------------------------------------------------------
