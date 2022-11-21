@@ -7,8 +7,12 @@ Also, it supplies a data analysis of nulls and nans for each table.
 This was done as a pandas practice and does not have the aim to make real recommendations on supply management.
 To really recommend on that aspect, a more advanced algorythm that takes into account more variables should be used.
 
+Update: 
+Added support for analyzing data from 2016. This new data had to be cleaned so I also added a new python script to do this.
+New files to support this, identified with their original name + _2016, were also created by modifying the original ones.
+
 ### Instructions:
-To execute the program, run "pizzas.py"
+To execute the program, run "pizzas.py" or "pizzas_2016.py".
 Also, it is possible to create a docker image to safely deploy the program
 To do that, just run the following command in the console, inside the directory where you clone this repository:
 
