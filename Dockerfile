@@ -12,4 +12,6 @@ COPY data_files_2016 /data_files_2016
 
 RUN pip intall -r requirements.txt
 
-CMD [ "python", "./pizzas.py" ]
+#Comment or uncomment the following line to run the script that you like
+CMD [ "python", "./pizzas_2016.py" ]
+#CMD [ "python", "./pizzas.py" ]
