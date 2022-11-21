@@ -1,0 +1,262 @@
+<root>
+  <row id="0">
+    <ingredient>Alfredo Sauce</ingredient>
+    <to_buy>27.0</to_buy>
+  </row>
+  <row id="1">
+    <ingredient>Anchovies</ingredient>
+    <to_buy>51.0</to_buy>
+  </row>
+  <row id="2">
+    <ingredient>Artichoke</ingredient>
+    <to_buy>75.0</to_buy>
+  </row>
+  <row id="3">
+    <ingredient>Artichokes</ingredient>
+    <to_buy>154.5</to_buy>
+  </row>
+  <row id="4">
+    <ingredient>Arugula</ingredient>
+    <to_buy>27.0</to_buy>
+  </row>
+  <row id="5">
+    <ingredient>Asiago Cheese</ingredient>
+    <to_buy>103.5</to_buy>
+  </row>
+  <row id="6">
+    <ingredient>Bacon</ingredient>
+    <to_buy>98.5</to_buy>
+  </row>
+  <row id="7">
+    <ingredient>Barbecue Sauce</ingredient>
+    <to_buy>62.0</to_buy>
+  </row>
+  <row id="8">
+    <ingredient>Barbecued Chicken</ingredient>
+    <to_buy>62.0</to_buy>
+  </row>
+  <row id="9">
+    <ingredient>Beef Chuck Roast</ingredient>
+    <to_buy>46.5</to_buy>
+  </row>
+  <row id="10">
+    <ingredient>Blue Cheese</ingredient>
+    <to_buy>52.0</to_buy>
+  </row>
+  <row id="11">
+    <ingredient>Brie Carre Cheese</ingredient>
+    <to_buy>10.0</to_buy>
+  </row>
+  <row id="12">
+    <ingredient>Calabrese Salami</ingredient>
+    <to_buy>42.0</to_buy>
+  </row>
+  <row id="13">
+    <ingredient>Capocollo</ingredient>
+    <to_buy>188.5</to_buy>
+  </row>
+  <row id="14">
+    <ingredient>Caramelized Onions</ingredient>
+    <to_buy>10.0</to_buy>
+  </row>
+  <row id="15">
+    <ingredient>Chicken</ingredient>
+    <to_buy>237.0</to_buy>
+  </row>
+  <row id="16">
+    <ingredient>Chipotle Sauce</ingredient>
+    <to_buy>96.0</to_buy>
+  </row>
+  <row id="17">
+    <ingredient>Chorizo Sausage</ingredient>
+    <to_buy>34.0</to_buy>
+  </row>
+  <row id="18">
+    <ingredient>Cilantro</ingredient>
+    <to_buy>96.0</to_buy>
+  </row>
+  <row id="19">
+    <ingredient>Coarse Sicilian Salami</ingredient>
+    <to_buy>59.0</to_buy>
+  </row>
+  <row id="20">
+    <ingredient>Corn</ingredient>
+    <to_buy>96.0</to_buy>
+  </row>
+  <row id="21">
+    <ingredient>Eggplant</ingredient>
+    <to_buy>28.5</to_buy>
+  </row>
+  <row id="22">
+    <ingredient>Feta Cheese</ingredient>
+    <to_buy>129.5</to_buy>
+  </row>
+  <row id="23">
+    <ingredient>Fontina Cheese</ingredient>
+    <to_buy>86.5</to_buy>
+  </row>
+  <row id="24">
+    <ingredient>Friggitello Peppers</ingredient>
+    <to_buy>23.0</to_buy>
+  </row>
+  <row id="25">
+    <ingredient>Garlic</ingredient>
+    <to_buy>800.0</to_buy>
+  </row>
+  <row id="26">
+    <ingredient>Genoa Salami</ingredient>
+    <to_buy>41.0</to_buy>
+  </row>
+  <row id="27">
+    <ingredient>Goat Cheese</ingredient>
+    <to_buy>85.5</to_buy>
+  </row>
+  <row id="28">
+    <ingredient>Gorgonzola Piccante Cheese</ingredient>
+    <to_buy>61.0</to_buy>
+  </row>
+  <row id="29">
+    <ingredient>Gouda Cheese</ingredient>
+    <to_buy>75.0</to_buy>
+  </row>
+  <row id="30">
+    <ingredient>Green Olives</ingredient>
+    <to_buy>150.5</to_buy>
+  </row>
+  <row id="31">
+    <ingredient>Green Peppers</ingredient>
+    <to_buy>156.0</to_buy>
+  </row>
+  <row id="32">
+    <ingredient>Italian Sausage</ingredient>
+    <to_buy>34.0</to_buy>
+  </row>
+  <row id="33">
+    <ingredient>Jalapeno Peppers</ingredient>
+    <to_buy>165.5</to_buy>
+  </row>
+  <row id="34">
+    <ingredient>Kalamata Olives</ingredient>
+    <to_buy>125.5</to_buy>
+  </row>
+  <row id="35">
+    <ingredient>Luganega Sausage</ingredient>
+    <to_buy>59.0</to_buy>
+  </row>
+  <row id="36">
+    <ingredient>Mozzarella Cheese</ingredient>
+    <to_buy>310.0</to_buy>
+  </row>
+  <row id="37">
+    <ingredient>Mushrooms</ingredient>
+    <to_buy>258.5</to_buy>
+  </row>
+  <row id="38">
+    <ingredient>Onions</ingredient>
+    <to_buy>59.0</to_buy>
+  </row>
+  <row id="39">
+    <ingredient>Oregano</ingredient>
+    <to_buy>35.0</to_buy>
+  </row>
+  <row id="40">
+    <ingredient>Pancetta</ingredient>
+    <to_buy>23.0</to_buy>
+  </row>
+  <row id="41">
+    <ingredient>Parmigiano Reggiano Cheese</ingredient>
+    <to_buy>61.0</to_buy>
+  </row>
+  <row id="42">
+    <ingredient>Pears</ingredient>
+    <to_buy>10.0</to_buy>
+  </row>
+  <row id="43">
+    <ingredient>Peperoncini verdi</ingredient>
+    <to_buy>56.0</to_buy>
+  </row>
+  <row id="44">
+    <ingredient>Pepperoni</ingredient>
+    <to_buy>263.0</to_buy>
+  </row>
+  <row id="45">
+    <ingredient>Pesto Sauce</ingredient>
+    <to_buy>75.5</to_buy>
+  </row>
+  <row id="46">
+    <ingredient>Pineapple</ingredient>
+    <to_buy>132.0</to_buy>
+  </row>
+  <row id="47">
+    <ingredient>Plum Tomatoes</ingredient>
+    <to_buy>21.0</to_buy>
+  </row>
+  <row id="48">
+    <ingredient>Prosciutto</ingredient>
+    <to_buy>10.0</to_buy>
+  </row>
+  <row id="49">
+    <ingredient>Prosciutto di San Daniele</ingredient>
+    <to_buy>27.0</to_buy>
+  </row>
+  <row id="50">
+    <ingredient>Provolone Cheese</ingredient>
+    <to_buy>52.0</to_buy>
+  </row>
+  <row id="51">
+    <ingredient>Red Onions</ingredient>
+    <to_buy>548.5</to_buy>
+  </row>
+  <row id="52">
+    <ingredient>Red Peppers</ingredient>
+    <to_buy>372.5</to_buy>
+  </row>
+  <row id="53">
+    <ingredient>Ricotta Cheese</ingredient>
+    <to_buy>61.0</to_buy>
+  </row>
+  <row id="54">
+    <ingredient>Romano Cheese</ingredient>
+    <to_buy>52.0</to_buy>
+  </row>
+  <row id="55">
+    <ingredient>Sliced Ham</ingredient>
+    <to_buy>57.0</to_buy>
+  </row>
+  <row id="56">
+    <ingredient>Smoked Gouda Cheese</ingredient>
+    <to_buy>52.0</to_buy>
+  </row>
+  <row id="57">
+    <ingredient>Soppressata Salami</ingredient>
+    <to_buy>26.5</to_buy>
+  </row>
+  <row id="58">
+    <ingredient>Spinach</ingredient>
+    <to_buy>304.5</to_buy>
+  </row>
+  <row id="59">
+    <ingredient>Sun-dried Tomatoes</ingredient>
+    <to_buy>43.5</to_buy>
+  </row>
+  <row id="60">
+    <ingredient>Thai Sweet Chilli Sauce</ingredient>
+    <to_buy>70.0</to_buy>
+  </row>
+  <row id="61">
+    <ingredient>Thyme</ingredient>
+    <to_buy>10.0</to_buy>
+  </row>
+  <row id="62">
+    <ingredient>Tomatoes</ingredient>
+    <to_buy>834.0</to_buy>
+  </row>
+  <row id="63">
+    <ingredient>Zucchini</ingredient>
+    <to_buy>63.0</to_buy>
+  </row>
+  <row id="64">
+    <ingredient>&#145;Nduja Salami</ingredient>
+    <to_buy>23.0</to_buy>
+  </row>
+</root>

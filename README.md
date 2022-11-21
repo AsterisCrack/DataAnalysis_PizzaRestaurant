@@ -11,6 +11,10 @@ Update:
 Added support for analyzing data from 2016. This new data had to be cleaned so I also added a new python script to do this.
 New files to support this, identified with their original name + _2016, were also created by modifying the original ones.
 
+Update 2:
+Added support to save data into XML files. Data is now being saved in different XML files, including the data analysis of each table and
+the final results. Added multiple python files to support this change.
+
 ### Instructions:
 To execute the program, run "pizzas.py" or "pizzas_2016.py".
 Also, it is possible to create a docker image to safely deploy the program

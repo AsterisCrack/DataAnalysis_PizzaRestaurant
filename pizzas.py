@@ -1,6 +1,8 @@
 
 import pandas as pd
+import informeXML
 import informe
+import informe_final_XML
 
 def extract():
     #Obtenemos los datos de las tablas que necestiamos
@@ -76,10 +78,11 @@ def load(df, df_results, price_df):
     #From df results save another df with the columns ingredient and mode
     df_final = df_results[["ingredient", "mode"]]
     #Rename mode column to "To buy"
-    df_final = df_final.rename(columns={"mode":"to buy"})
+    df_final = df_final.rename(columns={"mode":"to_buy"}).reset_index(drop=True)
     #Save df_final to csv
     df_final.to_csv("next_week_supplies.csv", index=False)
-
+    #Save df_final to xml
+    informe_final_XML.createXML(df_final, "next_week_supplies.xml")
     #Print "You need to buy {mode} of {ingredient} for the next week"
     for i in df_results["ingredient"]:
         print(f"You need to buy {df_results[df_results['ingredient'] == i]['mode'].values[0]} of {i} for the next week")
@@ -88,6 +91,7 @@ def load(df, df_results, price_df):
 
 if __name__ == "__main__":
     informe.crear_informe()
+    informeXML.crear_informe()
     pizzas, pizza_types, orders, order_details = extract()
     week_data, results, weekly_price = transform(pizzas, pizza_types, orders, order_details)
     load(week_data, results, weekly_price)
