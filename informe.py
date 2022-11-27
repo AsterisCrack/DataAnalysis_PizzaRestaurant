@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 def analyze(df, f):
     f.write(f'NaN totales: {df.isna().sum().sum()}\n')
@@ -8,7 +9,9 @@ def analyze(df, f):
     f.write(f"Cada columna representa el siguiente tipo de dato:\n{df.dtypes}\n")
 
 def crear_informe():
-    FILE = "informe_calidad.txt"
+    if not os.path.exists("GeneratedResults/text_files"):
+        os.makedirs("GeneratedResults/text_files")
+    FILE = "GeneratedResults/text_files/informe_calidad.txt"
     DATA = ('data_files/data_dictionary.csv','data_files/order_details.csv','data_files/orders.csv','data_files/pizza_types.csv','data_files/pizzas.csv')
     with open(FILE, "w") as f:
         for i in DATA:

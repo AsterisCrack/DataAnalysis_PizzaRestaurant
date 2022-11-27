@@ -8,7 +8,8 @@ ADD informe_2016.py .
 ADD informe_2016_xml.py .
 ADD informeXML.py .
 ADD informe_final_XML.py .
-
+ADD reporte_ejecutivo.py .
+ 
 COPY data_files /data_files
 COPY data_files_2016 /data_files_2016
 

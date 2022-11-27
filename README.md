@@ -15,6 +15,9 @@ Update 2:
 Added support to save data into XML files. Data is now being saved in different XML files, including the data analysis of each table and
 the final results. Added multiple python files to support this change.
 
+Update 3:
+Added support for creating an executive report in pdf. Using fpdf and matplotlib+seaborn to analyze and visualize the data. Added a python file to support this change.
+
 ### Instructions:
 To execute the program, run "pizzas.py" or "pizzas_2016.py".
 Also, it is possible to create a docker image to safely deploy the program

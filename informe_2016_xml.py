@@ -4,6 +4,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import limpiar
+import os
 
 def prettify(elem):
     #Return a pretty-printed XML string for the Element.
@@ -22,7 +23,8 @@ def analyze(df, f):
     ET.SubElement(f, "Cada_columna_representa_el_siguiente_tipo_de_dato").text = str(df.dtypes)
 
 def crear_informe():
-    FILE = "informe_calidad_2016.xml"
+    #Creo carpeta xml
+    FILE = "GeneratedResults/xml_files/informe_calidad_2016.xml"
     DATA = ('data_files_2016/data_dictionary.csv','data_files_2016/order_details.csv','data_files_2016/orders.csv','data_files_2016/pizza_types.csv','data_files_2016/pizzas.csv')
     root = ET.Element("root")
     for i in DATA:

@@ -3,6 +3,17 @@ import pandas as pd
 import informeXML
 import informe
 import informe_final_XML
+import reporte_ejecutivo
+import signal
+import sys
+import os
+
+def handler_signal(signal, frame):
+    print("\n\n Exiting program...")
+    sys.exit(1)
+
+# Señal de control por si el usuario introduce Ctrl + C para parar el programa
+signal.signal(signal.SIGINT, handler_signal)
 
 def extract():
     #Obtenemos los datos de las tablas que necestiamos
@@ -23,6 +34,8 @@ def transform(pizzas, pizza_types, orders, order_details):
     
     #Assume size is S:1, M:1,5, L:2, XL:2,5, XXL:3
     orders["size"] = orders["size"].replace({"S":1, "M":1.5, "L":2, "XL":2.5, "XXL":3})
+    #Copio a un nuevo df para no modificar el original
+    df_amplio = orders.copy()
     #Group by date and pizza_type_id, adding the values of size and price, ingredientts is the same, date and pizza_type_id must be conserved as columns
     orders = orders.groupby(["date", "pizza_type_id"]).agg({"size":"sum", "price":"sum", "ingredients":"first"})
     #Reset index to make date and pizza_type_id columns again
@@ -72,26 +85,37 @@ def transform(pizzas, pizza_types, orders, order_details):
     df_results["ingredient"] = df_results["ingredient"].str.strip()
     df_results = df_results.sort_values(by=["ingredient"])
 
-    return df, df_results, price_df
+    return df, df_results, price_df, df_amplio
 
-def load(df, df_results, price_df):
+def load(df, df_results, price_df, df_amplio):
     #From df results save another df with the columns ingredient and mode
     df_final = df_results[["ingredient", "mode"]]
     #Rename mode column to "To buy"
     df_final = df_final.rename(columns={"mode":"to_buy"}).reset_index(drop=True)
     #Save df_final to csv
-    df_final.to_csv("next_week_supplies.csv", index=False)
+    df_final.to_csv("GeneratedResults/csv_files/next_week_supplies.csv", index=False)
     #Save df_final to xml
-    informe_final_XML.createXML(df_final, "next_week_supplies.xml")
+    informe_final_XML.createXML(df_final, "GeneratedResults/xml_files/next_week_supplies.xml")
+    #Create reporte ejecutivo
+    reporte_ejecutivo.createReport(df, df_final, price_df, df_amplio)
     #Print "You need to buy {mode} of {ingredient} for the next week"
     for i in df_results["ingredient"]:
         print(f"You need to buy {df_results[df_results['ingredient'] == i]['mode'].values[0]} of {i} for the next week")
     print()
-    print("All data saved in next_week_supplies.csv")
+    print("All data saved in GeneratedResults/csv_files/next_week_supplies.csv")
 
 if __name__ == "__main__":
+    #Create new folder named GeneratedResults and subfolders needed
+    if not os.path.exists("GeneratedResults/csv_files"):
+        os.makedirs("GeneratedResults/csv_files")
+    if not os.path.exists("GeneratedResults/xml_files"):
+        os.makedirs("GeneratedResults/xml_files")
+    if not os.path.exists("GeneratedResults/text_files"):
+        os.makedirs("GeneratedResults/text_files")
+    if not os.path.exists("GeneratedResults/text_files"):
+        os.makedirs("GeneratedResults/pdf_files")
     informe.crear_informe()
     informeXML.crear_informe()
     pizzas, pizza_types, orders, order_details = extract()
-    week_data, results, weekly_price = transform(pizzas, pizza_types, orders, order_details)
-    load(week_data, results, weekly_price)
+    week_data, results, weekly_price, df_amplio = transform(pizzas, pizza_types, orders, order_details)
+    load(week_data, results, weekly_price, df_amplio)

@@ -19,7 +19,7 @@ def analyze(df, f):
     ET.SubElement(f, "Cada_columna_representa_el_siguiente_tipo_de_dato").text = str(df.dtypes)
     
 def crear_informe():
-    FILE = "informe_calidad.xml"
+    FILE = "GeneratedResults/xml_files/informe_calidad.xml"
     DATA = ('data_files/data_dictionary.csv','data_files/order_details.csv','data_files/orders.csv','data_files/pizza_types.csv','data_files/pizzas.csv')
     root = ET.Element("root")
     for i in DATA:

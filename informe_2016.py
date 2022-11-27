@@ -10,7 +10,7 @@ def analyze(df, f):
     f.write(f"Cada columna representa el siguiente tipo de dato:\n{df.dtypes}\n")
 
 def crear_informe():
-    FILE = "informe_calidad_2016.txt"
+    FILE = "GeneratedResults/text_files/informe_calidad_2016.txt"
     DATA = ('data_files/data_dictionary.csv','data_files/order_details.csv','data_files/orders.csv','data_files/pizza_types.csv','data_files/pizzas.csv')
     with open(FILE, "w") as f:
         for i in DATA:
