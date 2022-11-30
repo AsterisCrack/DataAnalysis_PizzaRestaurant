@@ -152,111 +152,111 @@
     <to_buy>258.5</to_buy>
   </row>
   <row id="38">
+    <ingredient>Nduja Salami</ingredient>
+    <to_buy>23.0</to_buy>
+  </row>
+  <row id="39">
     <ingredient>Onions</ingredient>
     <to_buy>59.0</to_buy>
   </row>
-  <row id="39">
+  <row id="40">
     <ingredient>Oregano</ingredient>
     <to_buy>35.0</to_buy>
   </row>
-  <row id="40">
+  <row id="41">
     <ingredient>Pancetta</ingredient>
     <to_buy>23.0</to_buy>
   </row>
-  <row id="41">
+  <row id="42">
     <ingredient>Parmigiano Reggiano Cheese</ingredient>
     <to_buy>61.0</to_buy>
   </row>
-  <row id="42">
+  <row id="43">
     <ingredient>Pears</ingredient>
     <to_buy>10.0</to_buy>
   </row>
-  <row id="43">
+  <row id="44">
     <ingredient>Peperoncini verdi</ingredient>
     <to_buy>56.0</to_buy>
   </row>
-  <row id="44">
+  <row id="45">
     <ingredient>Pepperoni</ingredient>
     <to_buy>263.0</to_buy>
   </row>
-  <row id="45">
+  <row id="46">
     <ingredient>Pesto Sauce</ingredient>
     <to_buy>75.5</to_buy>
   </row>
-  <row id="46">
+  <row id="47">
     <ingredient>Pineapple</ingredient>
     <to_buy>132.0</to_buy>
   </row>
-  <row id="47">
+  <row id="48">
     <ingredient>Plum Tomatoes</ingredient>
     <to_buy>21.0</to_buy>
   </row>
-  <row id="48">
+  <row id="49">
     <ingredient>Prosciutto</ingredient>
     <to_buy>10.0</to_buy>
   </row>
-  <row id="49">
+  <row id="50">
     <ingredient>Prosciutto di San Daniele</ingredient>
     <to_buy>27.0</to_buy>
   </row>
-  <row id="50">
+  <row id="51">
     <ingredient>Provolone Cheese</ingredient>
     <to_buy>52.0</to_buy>
   </row>
-  <row id="51">
+  <row id="52">
     <ingredient>Red Onions</ingredient>
     <to_buy>548.5</to_buy>
   </row>
-  <row id="52">
+  <row id="53">
     <ingredient>Red Peppers</ingredient>
     <to_buy>372.5</to_buy>
   </row>
-  <row id="53">
+  <row id="54">
     <ingredient>Ricotta Cheese</ingredient>
     <to_buy>61.0</to_buy>
   </row>
-  <row id="54">
+  <row id="55">
     <ingredient>Romano Cheese</ingredient>
     <to_buy>52.0</to_buy>
   </row>
-  <row id="55">
+  <row id="56">
     <ingredient>Sliced Ham</ingredient>
     <to_buy>57.0</to_buy>
   </row>
-  <row id="56">
+  <row id="57">
     <ingredient>Smoked Gouda Cheese</ingredient>
     <to_buy>52.0</to_buy>
   </row>
-  <row id="57">
+  <row id="58">
     <ingredient>Soppressata Salami</ingredient>
     <to_buy>26.5</to_buy>
   </row>
-  <row id="58">
+  <row id="59">
     <ingredient>Spinach</ingredient>
     <to_buy>304.5</to_buy>
   </row>
-  <row id="59">
+  <row id="60">
     <ingredient>Sun-dried Tomatoes</ingredient>
     <to_buy>43.5</to_buy>
   </row>
-  <row id="60">
+  <row id="61">
     <ingredient>Thai Sweet Chilli Sauce</ingredient>
     <to_buy>70.0</to_buy>
   </row>
-  <row id="61">
+  <row id="62">
     <ingredient>Thyme</ingredient>
     <to_buy>10.0</to_buy>
   </row>
-  <row id="62">
+  <row id="63">
     <ingredient>Tomatoes</ingredient>
     <to_buy>834.0</to_buy>
   </row>
-  <row id="63">
+  <row id="64">
     <ingredient>Zucchini</ingredient>
     <to_buy>63.0</to_buy>
-  </row>
-  <row id="64">
-    <ingredient>&#145;Nduja Salami</ingredient>
-    <to_buy>23.0</to_buy>
   </row>
 </root>

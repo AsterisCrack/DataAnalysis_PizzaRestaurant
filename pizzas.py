@@ -4,6 +4,7 @@ import informeXML
 import informe
 import informe_final_XML
 import reporte_ejecutivo
+import reporte_excel
 import signal
 import sys
 import os
@@ -24,6 +25,8 @@ def extract():
     return pizzas, pizza_types, orders, order_details
 
 def transform(pizzas, pizza_types, orders, order_details):
+    #Quito caracter extraño Glyph 145 (\x91) de la columna ingredients
+    pizza_types["ingredients"] = pizza_types["ingredients"].str.replace("\x91", "")
     #Unimos las tablas que nos interesan
     pizzas = pizzas.merge(pizza_types, on="pizza_type_id")
     orders = orders.merge(order_details, on="order_id")
@@ -98,6 +101,7 @@ def load(df, df_results, price_df, df_amplio):
     informe_final_XML.createXML(df_final, "GeneratedResults/xml_files/next_week_supplies.xml")
     #Create reporte ejecutivo
     reporte_ejecutivo.createReport(df, df_final, price_df, df_amplio)
+    reporte_excel.createReport(df, df_final, price_df, df_amplio)
     #Print "You need to buy {mode} of {ingredient} for the next week"
     for i in df_results["ingredient"]:
         print(f"You need to buy {df_results[df_results['ingredient'] == i]['mode'].values[0]} of {i} for the next week")

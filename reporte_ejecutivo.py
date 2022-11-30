@@ -7,7 +7,6 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 import os
-import sys
 import fpdf
 
 def createReport(df, df_results, price_df, df_amplio, is2016=False):

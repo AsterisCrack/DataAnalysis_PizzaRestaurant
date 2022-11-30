@@ -18,6 +18,9 @@ the final results. Added multiple python files to support this change.
 Update 3:
 Added support for creating an executive report in pdf. Using fpdf and matplotlib+seaborn to analyze and visualize the data. Added a python file to support this change.
 
+Update 4:
+Added support for creating an excel report. Using pandas along with the built-in xlsxwriter, it generates an excel report with data visualizations about overall sales, ingredient popularity, pizza popularity or statistics on every weekday. Added a python file to support this change.
+
 ### Instructions:
 To execute the program, run "pizzas.py" or "pizzas_2016.py".
 Also, it is possible to create a docker image to safely deploy the program
