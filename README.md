@@ -22,7 +22,7 @@ Update 4:
 Added support for creating an excel report. Using pandas along with the built-in xlsxwriter, it generates an excel report with data visualizations about overall sales, ingredient popularity, pizza popularity or statistics on every weekday. Added a python file to support this change.
 
 ### Instructions:
-First, intall required dependencies by running the command pip install -r requirements.txt
+First, intall required dependencies by running the command pip install -r requirements.txt.
 To execute the program, run "pizzas.py" or "pizzas_2016.py".
 Also, it is possible to create a docker image to safely deploy the program
 To do that, just run the following command in the console, inside the directory where you clone this repository:
